@@ -12,11 +12,11 @@
             当前使用的网络是： <code id="network">...</code>
             用微信扫一扫下面的ur，然后分享到朋友圈
         </p>
-        <p id="hide">隐藏／显示分享按钮</p>
-        <p id="close">关闭webview</p>
-        <p id="scan">跳转到扫描二维码页面</p>
-        <p id="imagePreview">图片预览</p>
-        <p id="email">分享到邮件</p>
+        <p><button onclick="toggle()">隐藏/显示分享按钮</button></p>
+        <p><button onclick="closeWebView()">关闭webview</button></p>
+        <p><button onclick="scanQRCode()">跳转到扫描二维码界面</button></p>
+        <p><button onclick="imagePreview()">图片预览/查看大图</button></p>
+        <p><button onclick="sendEmail()">分享到邮件</button></p>
         <script src="wechat.js"></script>
         <script>
             // 导入的数据
